@@ -47,7 +47,7 @@ INSTALLED_APPS = [
     'custom_auth',
     # 'apps.orders',
     # 'apps.payments',
-    # 'apps.products'
+    'apps.products'
 ]
 
 MIDDLEWARE = [
