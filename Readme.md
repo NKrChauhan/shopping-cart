@@ -2,15 +2,14 @@
 
 ```
 shopping_cart/
-├── users/
+├── auth/
 │   ├── admin.py
 │   ├── apps.py
-│   ├── urls.py                   # Urls for views related to users
-│   ├── views.py                  # Views for users module
-│   ├── models.py                 # User models
-│   ├── serializers.py            # Serializers for users
-│   ├── services/
-│   │   └── users.py              # Business logic for user
+│   ├── urls.py                   # Urls for views related to auth
+│   ├── views.py                  # Views for auth module
+│   ├── models/                   # User models
+│   │   └── user.py               # Model for user
+│   ├── serializers.py            # Serializers for auth
 │   └── tests/                    # Unit tests
 ├── shopping_cart/
 │   ├── __init__.py
